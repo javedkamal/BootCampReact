@@ -34,4 +34,4 @@ jobs:
       - name: Installing Surge
         run: npm install -g surge
       - name: Deploying Web Site Remotely
-        run: surge ./build http://emsenterprises.surge.sh --token ${{ secrets.Surge_React_Token }}
+        run: surge ./build http://emsenterprises.surge.sh --token ${{ secrets.SURGE_REACT_TOKEN }}

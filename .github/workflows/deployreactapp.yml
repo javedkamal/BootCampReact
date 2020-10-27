@@ -31,6 +31,8 @@ jobs:
         with:
           # Yarn command
           cmd: install
+      - name: Making Build
+        run: yarn build
       - name: Installing Surge
         run: npm install -g surge
       - name: Deploying Web Site Remotely
